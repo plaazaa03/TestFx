@@ -7,20 +7,21 @@ import org.testfx.api.FxRobot;
 import org.testfx.assertions.api.Assertions;
 import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
-
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+/*
+* Al extender de Application me permite poder ejecutar el comando mvn clean javafx:run
+* Al ejecutarlo se me ejecuta el programa.
+* */
+
+
 //@ExtendWith(ApplicationExtension.class)
-class ClickableButtonTest_JUnit5AssertJ extends Application{
+public class ClickableButtonTest_JUnit5AssertJ extends Application {
 
     private Button button;
-
-    public ClickableButtonTest_JUnit5AssertJ(){
-
-    }
 
     /**
      * Will be called with {@code @Before} semantics, i. e. before each test method.

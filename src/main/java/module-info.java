@@ -1,8 +1,8 @@
 module es.ieslosmontecillos.testfx {
     requires javafx.controls;
     requires javafx.fxml;
-    requires org.junit.jupiter.api;
     requires org.testfx;
+    requires org.junit.jupiter.api;
     requires org.testfx.junit5;
 
 
